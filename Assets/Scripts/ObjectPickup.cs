@@ -19,7 +19,7 @@ public class ObjectPickup : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetKeyDown(KeyCode.E))
         {
             switch(isAttached)
             {
