@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: RainShader
+  m_Name: AlleywayPropRainShader
   m_Shader: {fileID: -6465566751694194690, guid: fddd6c9b13a29654eb4475f339f2123d, type: 3}
   m_ShaderKeywords: _DISABLE_SSR_TRANSPARENT
   m_LightmapFlags: 4
@@ -30,7 +30,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_bd5821afaf02468cae5a201006ea898a:
-        m_Texture: {fileID: 2800000, guid: 0d211faab018b7741845cb3ff5bb72d9, type: 3}
+        m_Texture: {fileID: 2800000, guid: cf2ca3283eb10f94b8ee96a38ffe1745, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _AnisotropyMap:
@@ -93,10 +93,6 @@ Material:
         m_Texture: {fileID: 2800000, guid: 1ea0f33f8baa6c14db098042fae03385, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_c5abe3a12b9d4ee4aef22a9201e4aff4_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 1ea0f33f8baa6c14db098042fae03385, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _SpecularColorMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -134,13 +130,13 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_170826639d214e25932057263a6f4760: 0.183
-    - Vector1_287ca9ccc741435eb9c0e2a2b7806aa8: 0.02
-    - Vector1_53cf4523a6b4476995df8b5ae246c823: 10
-    - Vector1_763250538f634022b376b48d37b6d74e: 12
-    - Vector1_88b2d9c9e668488b831a38f4a29b9177: 10
-    - Vector1_a31fe511c25643b68d4022d37ffb7023: 10
-    - Vector1_a7d5a7540126478191f93f38dd52e726: 1
+    - Vector1_170826639d214e25932057263a6f4760: 0.711
+    - Vector1_287ca9ccc741435eb9c0e2a2b7806aa8: 0.01
+    - Vector1_53cf4523a6b4476995df8b5ae246c823: 1
+    - Vector1_763250538f634022b376b48d37b6d74e: 50
+    - Vector1_88b2d9c9e668488b831a38f4a29b9177: 1
+    - Vector1_a31fe511c25643b68d4022d37ffb7023: 5
+    - Vector1_a7d5a7540126478191f93f38dd52e726: 1.93
     - _AORemapMax: 1
     - _AORemapMin: 0
     - _ATDistance: 1
@@ -255,7 +251,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - Vector2_354956de6c114ae9a0c045ee14aff39c: {r: 0.5, g: 0.5, b: 0, a: 0}
-    - Vector2_fb234f0731554552ab1e9a9554c9b02a: {r: 0, g: 2, b: 0, a: 0}
+    - Vector2_fb234f0731554552ab1e9a9554c9b02a: {r: 0, g: 1, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BaseColorMap_MipInfo: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
@@ -273,7 +269,7 @@ Material:
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &2031373359864647728
+--- !u!114 &6066215198574922667
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
