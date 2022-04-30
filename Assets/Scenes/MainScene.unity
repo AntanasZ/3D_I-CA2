@@ -5891,7 +5891,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 738646681595172698, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
       propertyPath: antialiasing
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 738646681595172699, guid: 573ac53c334415945bf239de2c2f0511, type: 3}
       propertyPath: field of view
@@ -9835,7 +9835,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4622242715261446, guid: b682fd822fb36d344b794e00dcf92f51, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4622242715261446, guid: b682fd822fb36d344b794e00dcf92f51, type: 3}
       propertyPath: m_LocalScale.x
@@ -9934,11 +9934,6 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 445376, guid: 386cd1aab68b4624882aaef48359420b, type: 3}
   m_PrefabInstance: {fileID: 1893842006}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &996611079 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4136142687646800, guid: b682fd822fb36d344b794e00dcf92f51, type: 3}
-  m_PrefabInstance: {fileID: 966914594}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &998771891
 PrefabInstance:
@@ -12407,7 +12402,7 @@ GameObject:
   - component: {fileID: 1310398751}
   - component: {fileID: 1310398750}
   m_Layer: 0
-  m_Name: Reflection Probe
+  m_Name: Gun Reflection Probe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12420,12 +12415,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1310398748}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.00000016149524, y: -0.009100079, z: -0.0039000078}
-  m_LocalScale: {x: 2.4216, y: 2.4216, z: 2.4216}
+  m_LocalRotation: {x: -0.67685574, y: -0, z: -0.000000029802322, w: 0.7361157}
+  m_LocalPosition: {x: 2.4005961, y: 5.279311, z: 4.252893}
+  m_LocalScale: {x: 78.69316, y: 78.6923, z: 78.69228}
   m_Children: []
-  m_Father: {fileID: 996611079}
-  m_RootOrder: 0
+  m_Father: {fileID: 1977842416}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1310398750
 MonoBehaviour:
@@ -12623,7 +12618,7 @@ MonoBehaviour:
       frustum:
         mode: 0
         aspect: 1
-        farClipPlaneRaw: 1000
+        farClipPlaneRaw: 50
         nearClipPlaneRaw: 0.3
         fieldOfView: 90
         projectionMatrix:
